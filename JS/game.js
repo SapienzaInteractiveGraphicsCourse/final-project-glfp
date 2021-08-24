@@ -2,10 +2,10 @@ import { GLTFLoader  } from 'https://cdn.skypack.dev/three@0.131.2/examples/jsm/
 import { OrbitControls  } from 'https://cdn.skypack.dev/three@0.131.2/examples/jsm/controls/OrbitControls.js';
 
 
-import { loadModel } from 'modelLoader.js';
-import buildEnvironment from 'environmentBuilder.js';
-import animationsLoader from 'animationsLoader.js';
-import {restingPosition, setPositionGrabTorch, setPositionDropTorch, jumpPosition, setPosition, setPositionCar, checkDistance, checkContact } from 'support.js'
+import { loadModel } from './modelLoader.js';
+import buildEnvironment from './environmentBuilder.js';
+import animationsLoader from './animationsLoader.js';
+import {restingPosition, setPositionGrabTorch, setPositionDropTorch, jumpPosition, setPosition, setPositionCar, checkDistance, checkContact } from './support.js'
 
 
 var game = async function(){
