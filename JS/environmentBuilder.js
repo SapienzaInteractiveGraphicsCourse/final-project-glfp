@@ -1,4 +1,4 @@
-import { getBody } from './JS/modelLoader.js';
+import { getBody } from './modelLoader.js';
 
 					
 var treePositions = [[-10, -10], [-10, -20], [-10, -45], [-25, -15], [-20, -40], [-35, -20], [-35, -30], [-45, -20], [-45, -30], [-40, -40], [-25, -45], [-35, -45], [-45, -40],
