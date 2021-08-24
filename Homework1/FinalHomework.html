@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>FinalHomework</title>
+		<script src="../Common/Three.js"></script>
+		<!--<script src="../Common/Three/examples/jsm/loaders/GLTFLoader.js" type="module"></script>
+		<script src="../Common/Three/examples/jsm/controls/FirstPersonControls.js" type="module"></script>
+		<script src="../Common/Three/src/core/Clock.js"></script>-->
+		<script src="../Common/cannon.js"></script>
+		<script src="../Common/CannonDebugRenderer.js"></script>
+		<script src="../Common/tween.umd.js"></script>
+
+		<script src="FinalHomework2.js" type="module"></script>
+		<link rel="stylesheet" href="css/FinalHomework.css">
+	</head>
+	
+	<body style="margin: 0;">
+		
+		<!--<div id="loaderContainer">
+			<div id="loader"></div>
+			<img src="./img/woody.gif"/>
+		</div>-->
+		
+		<div id="loaderContainer">
+			<img src="./img/woody.gif"/>
+			<div class="loader"></div>
+		</div>
+		
+		<div id="divTorch">Press E to grab and drop the torch</div>
+		<div id="divTorchLight">Press Q to turn on and off the torch light</div>
+		<div id="divCarLight">Press Q to turn on and off the car light</div>
+		<div id="divKey">Press E to grab the key</div>
+		<div id="divFuel">Press E to grab the fuel</div>
+		<div id="divWrench">Press E to grab the wrench</div>
+		<div id="divBonfire">Press E to interact with bonfire</div>
+		<div id="divCar">Press C to interact with the car</div>
+		<div id="divCarDisable">You cannot enter the car untill you collect all the objects to repair it</div>
+		
+		<div id="objectCollected">
+			<p id="objectNumber">Collected Object: 0/3</p>
+			<img src="./img/key.png"/ id="keyCollected">
+			<img src="./img/wrench.png"/ id="wrenchCollected">
+			<img src="./img/fuel.png"/ id="fuelCollected">
+		</div>
+		<div id="audioContainer">
+			<img src="./img/muted.png"/ id="mutedIcon">
+			<img src="./img/unmuted.png"/ id="unmutedIcon">
+		</div>
+		<div id="quitGame">
+			<p>
+				<a href="./index.html">QUIT GAME</a>
+			</p>
+			<p>
+				<a id="resume" onclick="closeMenu()">RESUME GAME</a>
+			</p>
+		</div>
+
+		<script>
+			function closeMenu(){
+				document.getElementById("quitGame").style.display = "none";		
+			}
+		</script>
+		
+		<!--<canvas id="gl-canvas" width="512" height="512"></canvas>-->
+
+		<!--<script id="vertex-shader" type="x-shader/x-vertex">
+			#version 300 es
+			precision mediump float;
+			
+			in vec4 aPosition;
+			out vec4 vColor;
+			
+			void main(){
+				gl_Position = aPosition;
+				vColor = vec4(1.0, 0.0, 0.0, 1.0);
+			}
+		</script>
+
+		<script id="fragment-shader" type="x-shader/x-fragment">
+			#version 300 es
+			precision mediump float;
+			
+			in vec4 vColor;
+			out vec4 fColor;
+
+			void main(){
+				fColor = vColor;
+			}
+		</script>
+		-->
+
+  		<!--<script src="../Common/initShaders.js"></script>
+		<script src="../Common/MVnew.js"></script>-->
+		<!--<script src="../Common/Cannon/node_modules/cannon/libs/Three.js"></script>-->
+		
+
+
+		<!--<script>
+			
+			
+			var scene = new THREE.Scene();
+			const world = new CANNON.World();
+			const cannonDebugRenderer = new THREE.CannonDebugRenderer(scene, world);
+
+		
+		</script>-->
+
+
+
+	</body>
+</html>
