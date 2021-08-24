@@ -1,5 +1,3 @@
-# WOODY, THE GAME
-
 Francesco Pro 1944191
 
 Giorgio Leporoni 1944533
