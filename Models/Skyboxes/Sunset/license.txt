@@ -1,0 +1,11 @@
+Model Information:
+* title:	Star Wars - Low Poly Tatooine Skybox
+* source:	https://sketchfab.com/3d-models/star-wars-low-poly-tatooine-skybox-4acf1cbebe674e128b4bf68e9897ae3e
+* author:	Oscar R (https://sketchfab.com/braidoner)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Star Wars - Low Poly Tatooine Skybox" (https://sketchfab.com/3d-models/star-wars-low-poly-tatooine-skybox-4acf1cbebe674e128b4bf68e9897ae3e) by Oscar R (https://sketchfab.com/braidoner) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
