@@ -1,0 +1,11 @@
+Model Information:
+* title:	woody_Angry2
+* source:	https://sketchfab.com/3d-models/woody-angry2-fed850ed17e34b9c9148627e47b5f8ea
+* author:	rastafawel (https://sketchfab.com/rastafawel)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "woody_Angry2" (https://sketchfab.com/3d-models/woody-angry2-fed850ed17e34b9c9148627e47b5f8ea) by rastafawel (https://sketchfab.com/rastafawel) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
