@@ -1,0 +1,11 @@
+Model Information:
+* title:	Motorbike key
+* source:	https://sketchfab.com/3d-models/motorbike-key-700f69f4cb5b4f8c80031a76d8d7d6b8
+* author:	sheffrator (https://sketchfab.com/sheffrator)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Motorbike key" (https://sketchfab.com/3d-models/motorbike-key-700f69f4cb5b4f8c80031a76d8d7d6b8) by sheffrator (https://sketchfab.com/sheffrator) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
