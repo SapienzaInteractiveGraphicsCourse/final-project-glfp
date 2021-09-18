@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>Woody the game</title>
+
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="shortcut icon" href="#">
+	</head>
+	
+	<body style="margin: 0;">
+		<div id="container">
+			<div id="gameTitle">
+				<text>WOODY, THE GAME</text>
+			</div>
+			<div id="settingsContainer">
+				<p><a href="./game.html" target="_parent"><button id="playButton" class="buttons" onClick="play()">PLAY</button></a></p>
+				<p><a href="./settings.html" target="_parent"><button id="settingsButton" class="buttons">SETTINGS</button></a></p>
+				<p><button id="commandButton" class="buttons">COMMANDS</button></p>
+				<p><button id="instructionButton" class="buttons">INSTRUCTIONS</button></p>
+			</div>
+			
+			<div id="commandModal" class="modal">
+				  <!-- Modal content -->
+				  <div class="command-modal-content">
+					<span class="close">&times;</span>
+					<p>
+						<p><img src="img/wasd.jpg" id="wasd"/> &nbsp &nbsp Buttons to move the player inside the environment.</p>
+						<p><img src="img/e2.png" id="e"/> &nbsp &nbsp Button to grab objects from the ground.</p>
+						<p><img src="img/z2.png" id="z"/> &nbsp &nbsp Button to change the camera control if possible (switch first and third person).</p>
+						<p><img src="img/q2.png" id="q"/> &nbsp &nbsp Button to turn on the light of the torch or of the car.</p>
+						<p><img src="img/c.png" id="c"/> &nbsp &nbsp Use c to interact with the car (enter/exit).</p>
+						<p><img src="img/mouse.png" id="mouses"/>&nbsp &nbsp Move the mouse to move the camera and the torch in first person control.</p>
+						<p><img src="img/arrows.png" id="arrows"/>&nbsp &nbsp Use the arrows to move the car.</p>
+					</p>
+				  </div>
+			</div>
+			
+			<div id="instructionModal" class="modal">
+				  <!-- Modal content -->
+				  <div class="command-modal-content">
+					<span class="close2">&times;</span>
+					<p>
+						Woody is inside a forest with a broken car. Find and collect the pieces of the car lost in the forest to repair it. When the car is repaired drive it through the magic portal to save Woody!<br> Good Luck! 
+					</p>
+				  </div>
+			</div>
+				
+			<div id="footer">
+				<p>
+					Project done by: <br>
+					Francesco Pro 1944191 - pro.1944191@studenti.uniroma1.it<br>
+					Giorgio Leporoni 1944533 - leporoni.1944533@studenti.uniroma1.it
+				</p>
+			</div>
+		</div>
+
+<script>
+		//Commands modal
+		var modal = document.getElementById("commandModal");
+		var btn = document.getElementById("commandButton");
+		var span = document.getElementsByClassName("close")[0];
+		
+		//Instructions modal
+		var modalInstructions = document.getElementById("instructionModal");
+		var btnInstructions = document.getElementById("instructionButton");
+		var spanInstructions = document.getElementsByClassName("close2")[0];
+		
+		
+		btn.addEventListener('click', function() { 
+			modal.style.display = "block";
+		}, false);
+		
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+				
+			}else if (event.target == modalInstructions){
+				modalInstructions.style.display = "none";
+			}
+		}
+		
+		span.onclick = function() {
+			modal.style.display = "none";
+		}		
+		
+		btnInstructions.addEventListener('click', function() { 
+			modalInstructions.style.display = "block";
+		}, false);
+		
+	
+		spanInstructions.onclick = function() {
+			modalInstructions.style.display = "none";
+		}
+
+		
+		
+		function play(){
+			localStorage.setItem('play', 'ok');
+		}
+		
+		if(localStorage.getItem('set') == null){
+			localStorage.setItem('ambientLight', '0xfdfbd3');
+			localStorage.setItem('objectSpawn', true);
+			localStorage.setItem('camera', false);
+			localStorage.setItem('lockCamera', false);
+			localStorage.setItem('shadowBox', true);
+		}
+		
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
