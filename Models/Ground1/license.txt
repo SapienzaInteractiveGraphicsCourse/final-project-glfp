@@ -1,0 +1,11 @@
+Model Information:
+* title:	Flat Grass Surface
+* source:	https://sketchfab.com/3d-models/flat-grass-surface-a49a998993cb47bcb1633637a00afe51
+* author:	sdc.pr1 (https://sketchfab.com/sdc.pr1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Flat Grass Surface" (https://sketchfab.com/3d-models/flat-grass-surface-a49a998993cb47bcb1633637a00afe51) by sdc.pr1 (https://sketchfab.com/sdc.pr1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
