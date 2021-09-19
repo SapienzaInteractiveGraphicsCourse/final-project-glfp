@@ -577,7 +577,7 @@ var game = async function(){
 					
 					playerCamera = !playerCamera;
 				}else if(distancePlayerCar){
-					if(objectNumber >= 0){
+					if(objectNumber == 3){
 						window.removeEventListener("mousemove", onMouseMove);
 
 						carMesh.grabbed = true;
