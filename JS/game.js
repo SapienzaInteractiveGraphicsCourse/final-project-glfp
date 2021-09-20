@@ -1,4 +1,5 @@
 import { GLTFLoader  } from 'https://cdn.skypack.dev/three@0.131.2/examples/jsm/loaders/GLTFLoader.js';
+import { Clock  } from 'https://cdn.skypack.dev/three@0.131.2/src/core/Clock.js';
 
 import { loadModel } from './modelLoader.js';
 import buildEnvironment from './environmentBuilder.js';
@@ -88,7 +89,8 @@ var game = async function(){
 	var objectNumber = 0;
 	var bonfireOn = false;
 	var tmp;
-
+	
+	var clock = new Clock();
 
 //*****************
 //  lights        *
@@ -297,7 +299,9 @@ var game = async function(){
 	function animate(){
 		requestAnimationFrame( animate );
 		
-		world.step(1/60);
+		let delta = clock.getDelta()
+		if (delta > 0.1) delta = 0.1;
+		world.step(delta);
 		
 		tmp = {
 			playerMesh: playerMesh,
